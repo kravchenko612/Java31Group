@@ -1,4 +1,4 @@
-package org.itstep.lesson2;
+package Lesson2;
 
 public class Practice {
     public static void main(String[] args) {

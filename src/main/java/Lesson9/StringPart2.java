@@ -1,4 +1,4 @@
-package org.itstep.lesson9.string;
+package Lesson9;
 
 import java.util.Arrays;
 

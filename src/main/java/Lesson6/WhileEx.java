@@ -1,4 +1,4 @@
-package org.itstep.lesson6.whileexamples;
+package Lesson6;
 
 public class WhileEx {
     public static void main(String[] args) {

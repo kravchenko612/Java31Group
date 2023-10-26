@@ -1,4 +1,4 @@
-package org.itstep.lesson9.string.practice;
+package Lesson9;
 
 public class Task5Practice {
     //Завдання 5:

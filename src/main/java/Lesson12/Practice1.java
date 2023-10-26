@@ -1,4 +1,4 @@
-package org.itstep.lesson12.recursion;
+package Lesson12;
 
 import java.util.Scanner;
 
