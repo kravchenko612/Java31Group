@@ -31,6 +31,9 @@ public class BinarySearch {
         } else {
             System.out.println("Не знайшли елемент");
         }
+        for (int i = 0; i < num; i++) {
+            
+        }
 
 
     }
