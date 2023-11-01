@@ -15,13 +15,15 @@ package Lesson15.HomeWork;
 //     та операції порівняння.
 public class Main {
     public static void main(String[] args) {
-        Money money = new Money(-10L,(byte) 99);
+        Money money = new Money(-15L,(byte) 95);
         money.show();
         money.add(7L, (byte) 99);
         money.show();
         money.add(5, (byte) 50);
         money.show();
         money.substract(7L, (byte) 70);
+        money.show();
+        money.divide(8L, (byte) 91);
         money.show();
 
     }

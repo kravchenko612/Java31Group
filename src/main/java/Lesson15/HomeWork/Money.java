@@ -41,5 +41,15 @@ public class Money {
             this.kopijka = (byte) temp;
         }
     }
+    public void divide (long UAH, byte kopijka){
+        int temp = this.kopijka;
+        this.UAH %= UAH;
+        temp %= kopijka;
+        if (temp > 100){
+            this.UAH += 1;
+            temp -= 100;
+            this.kopijka = (byte) temp;
+        }
+    }
 }
 
