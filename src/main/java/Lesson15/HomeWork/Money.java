@@ -51,5 +51,14 @@ public class Money {
             this.kopijka = (byte) temp;
         }
     }
+    public void concert(long UAH, byte kopijka){
+        int temp = this.kopijka;
+        long l = this.UAH++;
+        if (temp == 100){
+            this.UAH += 1;
+
+
+        }
+    }
 }
 
