@@ -2,29 +2,26 @@ package Lesson19;
 
 public class Application {
     public static void main(String[] args) {
+    Integer in = 10;
+    int x = in; // розпакування
 
-        //розпакування
-        Integer in = 10;
-        int x = in;
-
-        //автоупакування
-        double d = 15.5;
-        Double d1 = d;
+    double d = 15.5;
+    Double d1 = d; // автоупакування
 
         //pars...
-
-        int num = Integer.parseInt("19587");
+        int num = Integer.parseInt("291123");
         System.out.println(num);
 
-        double nimD = Double.parseDouble("29.5");
-        System.out.println(nimD);
+        double numD = Double.parseDouble("29.4");
+        System.out.println(numD);
 
-        double dValue = in.doubleValue();
-        int intValue = d1.intValue();
+        double doubleValue = in.doubleValue();
+        int inValue = d1.intValue();
 
-        Number n = 15;
+        Number n = 13;
 
 
+
+        }
 
     }
-}
