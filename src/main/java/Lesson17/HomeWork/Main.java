@@ -27,5 +27,10 @@ public class Main {
 
         // Перевіряємо стан ліхтарика після вимкнення
         System.out.println("Стан ліхтарика після вимкнення: " + flashlight.isLight());
+
+        ChinaBattery chinaBattery = new ChinaBattery();
+
+        System.out.println("Початковий стан батарейки: " + chinaBattery.charge());
+
     }
 }
