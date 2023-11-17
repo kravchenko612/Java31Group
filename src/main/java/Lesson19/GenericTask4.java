@@ -15,7 +15,7 @@ public class GenericTask4 {
         System.out.println("Max = " + findMaxArr(arr1));
 
 
-        //цей спосіб кращще бо не має обмежень по Comparable
+        //цей спосіб краще бо не має обмежень по Comparable
         Number[] arr2 = {5.1, 2.1, 2.4, 3.1, 5.6, 3.7};
         System.out.println("Maximum = " + findMaximum(arr2));
 
