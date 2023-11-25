@@ -1,6 +1,7 @@
 package Lesson10;
 
-public class BuilderBufferExample {
+public class
+BuilderBufferExample {
     public static void main(String[] args) {
 
         String str = "Hello";

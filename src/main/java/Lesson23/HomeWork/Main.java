@@ -1,7 +1,7 @@
 package Lesson23.HomeWork;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.awt.Menu;
 import java.util.Scanner;
 
 //Завдання 2:
@@ -18,15 +18,14 @@ import java.util.Scanner;
 // з'являється знову.
 // Для вирішення завдання використовуйте відповідний
 // клас з Java Collections Framework.
-public class Main {
+public class Main extends Lesson23.HomeWork.Menu {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введіть логін - ");
-        List<String> stringList = new ArrayList<>();
-        System.out.println("Введіть пароль - ");
-        List<Integer> integerList = new ArrayList<>();
+
+        Menu menu = new Menu();
+        menu.getName();
 
 
     }
+
 }
